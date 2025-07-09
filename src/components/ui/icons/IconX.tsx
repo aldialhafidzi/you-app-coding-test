@@ -1,0 +1,10 @@
+const IconX = ({ className }: { className?: string }) => {
+    return (
+        <svg className={className} width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.9601 3.53552L3.53552 10.9601" stroke="currentColor" strokeLinecap="round" />
+            <path d="M3.71234 3.71228L11.137 11.1369" stroke="currentColor" strokeLinecap="round" />
+        </svg>
+    )
+}
+
+export default IconX

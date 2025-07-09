@@ -1,0 +1,17 @@
+@reference "../../../app/globals.css";
+
+.input-wrapper {
+  @apply flex justify-between text-white font-medium text-sm p-[18px] bg-white/6 w-full rounded-[9px] flex-auto gap-4;
+}
+
+.input-wrapper.normal {
+  @apply outline-none;
+}
+
+.input-wrapper.outline {
+  @apply border border-white/22 py-[10px] px-[20px];
+}
+
+.input {
+  @apply outline-none w-full;
+}
